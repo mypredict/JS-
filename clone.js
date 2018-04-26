@@ -85,7 +85,7 @@ function deepClone (sourceObj) {
   }
   return newObj
 }
-let obj6 = clone1(obj2)
+let obj6 = deepClone(obj2)
 obj6.name = '小明'
 obj6.age = 30
 obj6.skill = {
